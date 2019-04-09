@@ -46,5 +46,8 @@ Contributor(s):
     <property name="hibernate.connection.url">jdbc:oracle:thin:@172.17.20.75:1521:rabida</property>
     <property name="hibernate.connection.username">DDSI_051</property>
     <property name="hibernate.connection.password">melodi16</property>
+    <mapping resource="model/Collaborates.hbm.xml"/>
+    <mapping resource="model/Policialcase.hbm.xml"/>
+    <mapping resource="model/Expert.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
